@@ -1,0 +1,5 @@
+To export database:
+mysqldump -u username -p cpsc431 > backup.sql
+
+To import sql data file: 
+mysql -u username -p -h localhost cpsc431 < backup.sql
